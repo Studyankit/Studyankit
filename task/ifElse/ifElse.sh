@@ -1,43 +1,43 @@
 #!/bin/bash -x
 
 read -p "Enter first number; " x
-inputUser=$x;
+
 if
-	[ $inputUser=1 ];
+	[ $x -eq 1 ];
 then
-	echo "ONE";
+	echo "$x is ONE";
 elif
-	[ $inputUser=2 ];
+	[ $x -eq 2 ];
 then
-	echo "TWO";
+	echo "$x is TWO";
 elif
-	[ $inputUser=3 ];
+	[ $x -eq 3 ];
 then
-	echo "Three";
+	echo "$x is Three";
 elif
-	[ $inputUser=4 ];
+	[ $x = 4 ];
 then
-	echo "Four";
+	echo "$x is Four";
 elif
-	[ $inputUser=5 ];
+	[ $x -eq 5 ];
 then
-	echo "Five";
+	echo "$x is Five";
 elif
-	[ $inputUser=6 ];
+	[ $x -eq 6 ];
 then
-	echo "Six";
+	echo "$x is Six";
 elif
-	[ $inputUser=7 ];
+	[ $x -eq 7 ];
 then
-	echo "Seven";
+	echo "$x is Seven";
 elif
-	[ $inputUser=8 ];
+	[ $x -eq 8 ];
 then
-	echo "Eight";
+	echo "$x is Eight";
 elif
-	[ $inputUser=9 ];
+	[ $x -eq 9 ];
 then
-	echo "Nine";
+	echo "$x is Nine";
 else
-	echo "No is not a single digit";
+	echo "Number is not a single digit";
 fi
