@@ -5,11 +5,11 @@ leapYear=$(($x%4))
 leapYear1=$(($x%400))
 
 if
-	[ $leapYear = 0 ]
+	[ $x -lt 100 ] && [ $leapYear = 0 ]
 then
 	echo "$leapYear is a leap year"
 elif
-	[ $leapYear1 = 0 ]
+	[ $x -ge 100 ] && [ $leapYear1 = 0 ]
 then
 	echo "$leapYear1 is a 100's leap year"
 else
