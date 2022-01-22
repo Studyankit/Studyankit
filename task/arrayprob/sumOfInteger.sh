@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 size=6
-arr=( -1 1 2 -3 -6 4 )
+arr=( -3 -2 -1 1 2 3 )
 
 
 for (( i=0; i<$size-2; i++ ))
