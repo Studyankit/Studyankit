@@ -4,7 +4,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Studyankit" alt="Studyankit" /></a> </p>
 
-- 🌱 I’m currently learning **Web development with Python and MongoDB**
+- 🌱 I’m currently learning **Web development with Python and Django**
 
 - 📫 You can reach me at **ankitghosh101@gmail.com**
 
